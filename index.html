@@ -2,21 +2,27 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>DroneZone</title>
 	<link rel="stylesheet" href="css/app.css" />
 </head>
 <body>
-
-	<header class="primary-header">
+	
+	<header class="primary-header">		
 		<div class="primary-header__row">
 			<div class="primary-header__logo">
 				<a href="#" class="logo logo--light">Drone<span>Zone</span></a>
 			</div>
-			<nav class="">
+			<div class="primary-header__nav-toggle">
+				<a class="nav-toggle">
+					<span></span>
+				</a>
+			</div>
+			<nav class="primary-nav mobile-nav">
 				<ul class="nav-list">
 					<li class="nav-list__item">
 						<a href="#">Home</a>
-					</li>
+					</li> 
 					<li class="nav-list__item">
 						<a href="#">About</a>
 					</li>
@@ -48,7 +54,7 @@
 				<a href="#" class="button button--ghost">
 					<img src="imgs/play-icon.svg" /> Watch video
 				</a>
-			</div>
+			</div>			
 		</div>
 		<div class="hero__scroll scroll">
 			<div class="scroll__icon"></div>
@@ -56,12 +62,12 @@
 		</div>
 	</section>
 
-	<section class="features">
+	<section class="features"> 
 		<div class="grid__wrapper">
 			<div class="features__items grid__row">
 				<div class="features__col grid__col">
 					<div class="features__item">
-						<img src="imgs/feature-icons/from-air.jpg" alt="From Air Icon" />
+						<img src="imgs/feature-icons/from-air.png" alt="From Air Icon" />
 						<div class="features__title">
 							<h2 class="text-gradient">From air</h2>
 						</div>
@@ -70,7 +76,7 @@
 				</div>
 				<div class="features__col grid__col">
 					<div class="features__item">
-						<img src="imgs/feature-icons/best-drones.jpg" alt="Best Drones Icon" />
+						<img src="imgs/feature-icons/best-drones.png" alt="Best Drones Icon" />
 						<div class="features__title">
 							<h2 class="text-gradient">Best drones</h2>
 						</div>
@@ -79,7 +85,7 @@
 				</div>
 				<div class="features__col grid__col">
 					<div class="features__item">
-						<img src="imgs/feature-icons/speed.jpg" alt="Speed Icon" />
+						<img src="imgs/feature-icons/speed.png" alt="Speed Icon" />
 						<div class="features__title">
 							<h2 class="text-gradient">Speed</h2>
 						</div>
@@ -88,7 +94,7 @@
 				</div>
 				<div class="features__col grid__col">
 					<div class="features__item">
-						<img src="imgs/feature-icons/long-range.jpg" alt="Long Range Icon" />
+						<img src="imgs/feature-icons/long-range.png" alt="Long Range Icon" />
 						<div class="features__title">
 							<h2 class="text-gradient">Long range</h2>
 						</div>
@@ -187,6 +193,7 @@
 		</div>
 	</footer>
 
+	<script src="js/main.js"></script>
 
 </body>
 </html>
